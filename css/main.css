@@ -225,3 +225,10 @@ section#blog p a{
 	font-size: 15px;
 	text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  section#blog article {display: block;}
+  section#blog article div.image {width: 100%;}
+  section#blog article div.entry {width: 100%;}
+
+  }
